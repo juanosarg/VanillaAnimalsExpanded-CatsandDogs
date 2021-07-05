@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<!-- ==========================CatAbyssinian============================ -->
-
 	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
 		<defName>AEXP_CatAbyssinian</defName>
 		<label>abyssinian cat</label>
@@ -81,16 +79,16 @@
 			<predator>true</predator>
 			<useMeatFrom>Cat</useMeatFrom>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
-			<baseBodySize>0.255</baseBodySize>
-			<baseHungerRate>0.1</baseHungerRate>
+			<baseBodySize>0.32</baseBodySize>
+			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.42</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			<wildness>0.2</wildness>
+			<wildness>0</wildness>
 			<petness>1</petness>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
-			<gestationPeriodDays>24</gestationPeriodDays>
+			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<litterSizeCurve>
 				<points>
@@ -129,7 +127,6 @@
 			<li>AnimalPet</li>
 		</tradeTags>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatAbyssinian</defName>
 		<label>abyssinian cat</label>
@@ -174,9 +171,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 	<!-- ==========================CatBengal============================ -->
-
 	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
 		<defName>AEXP_CatBengal</defName>
 		<label>bengal cat</label>
@@ -255,16 +250,16 @@
 			<predator>true</predator>
 			<useMeatFrom>Cat</useMeatFrom>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
-			<baseBodySize>0.255</baseBodySize>
-			<baseHungerRate>0.1</baseHungerRate>
+			<baseBodySize>0.32</baseBodySize>
+			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.42</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			<wildness>0.2</wildness>
+			<wildness>0</wildness>
 			<petness>1</petness>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
-			<gestationPeriodDays>24</gestationPeriodDays>
+			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<litterSizeCurve>
 				<points>
@@ -303,7 +298,6 @@
 			<li>AnimalPet</li>
 		</tradeTags>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatBengal</defName>
 		<label>bengal cat</label>
@@ -348,9 +342,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 	<!-- ==========================CatBritishShorthair============================ -->
-
 	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
 		<defName>AEXP_CatBritishShorthair</defName>
 		<label>british shorthair cat</label>
@@ -429,16 +421,16 @@
 			<predator>true</predator>
 			<useMeatFrom>Cat</useMeatFrom>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
-			<baseBodySize>0.255</baseBodySize>
-			<baseHungerRate>0.1</baseHungerRate>
+			<baseBodySize>0.32</baseBodySize>
+			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.42</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			<wildness>0.2</wildness>
+			<wildness>0</wildness>
 			<petness>1</petness>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
-			<gestationPeriodDays>24</gestationPeriodDays>
+			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<litterSizeCurve>
 				<points>
@@ -477,7 +469,6 @@
 			<li>AnimalPet</li>
 		</tradeTags>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatBritishShorthair</defName>
 		<label>british shorthair cat</label>
@@ -522,9 +513,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 	<!-- ==========================CatMaineCoon============================ -->
-
 	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
 		<defName>AEXP_CatMaineCoon</defName>
 		<label>maine coon</label>
@@ -608,11 +597,11 @@
 			<baseHealthScale>1.07</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			<wildness>0.2</wildness>
+			<wildness>0</wildness>
 			<petness>1</petness>
 			<trainability>Advanced</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
-			<gestationPeriodDays>24</gestationPeriodDays>
+			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<litterSizeCurve>
 				<points>
@@ -651,7 +640,6 @@
 			<li>AnimalPet</li>
 		</tradeTags>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatMaineCoon</defName>
 		<label>maine coon</label>
@@ -696,9 +684,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 	<!-- ==========================CatMunchkin============================ -->
-
 	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
 		<defName>AEXP_CatMunchkin</defName>
 		<label>munchkin cat</label>
@@ -777,16 +763,16 @@
 			<predator>true</predator>
 			<useMeatFrom>Cat</useMeatFrom>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
-			<baseBodySize>0.22</baseBodySize>
-			<baseHungerRate>0.1</baseHungerRate>
+			<baseBodySize>0.32</baseBodySize>
+			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.42</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			<wildness>0.2</wildness>
+			<wildness>0</wildness>
 			<petness>1</petness>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
-			<gestationPeriodDays>24</gestationPeriodDays>
+			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<litterSizeCurve>
 				<points>
@@ -825,7 +811,6 @@
 			<li>AnimalPet</li>
 		</tradeTags>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatMunchkin</defName>
 		<label>munchkin cat</label>
@@ -870,9 +855,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 	<!-- ==========================NorwegianForestCat============================ -->
-
 	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
 		<defName>AEXP_CatNorwegianForest</defName>
 		<label>norwegian forest cat</label>
@@ -950,17 +933,17 @@
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
-			<baseBodySize>0.355</baseBodySize>
-			<baseHungerRate>0.1</baseHungerRate>
+			<baseBodySize>0.42</baseBodySize>
+			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.42</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			<wildness>0.2</wildness>
+			<wildness>0</wildness>
 			<useMeatFrom>Cat</useMeatFrom>
 			<petness>1</petness>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
-			<gestationPeriodDays>24</gestationPeriodDays>
+			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<litterSizeCurve>
 				<points>
@@ -999,7 +982,6 @@
 			<li>AnimalPet</li>
 		</tradeTags>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatNorwegianForest</defName>
 		<label>norwegian forest cat</label>
@@ -1044,9 +1026,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 	<!-- ==========================CatPersian============================ -->
-
 	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
 		<defName>AEXP_CatPersian</defName>
 		<label>persian cat</label>
@@ -1125,16 +1105,16 @@
 			<predator>true</predator>
 			<useMeatFrom>Cat</useMeatFrom>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
-			<baseBodySize>0.255</baseBodySize>
-			<baseHungerRate>0.1</baseHungerRate>
+			<baseBodySize>0.32</baseBodySize>
+			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.42</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			<wildness>0.2</wildness>
+			<wildness>0</wildness>
 			<petness>1</petness>
 			<trainability>Advanced</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
-			<gestationPeriodDays>24</gestationPeriodDays>
+			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<litterSizeCurve>
 				<points>
@@ -1173,7 +1153,6 @@
 			<li>AnimalPet</li>
 		</tradeTags>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatPersian</defName>
 		<label>persian cat</label>
@@ -1218,9 +1197,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 	<!-- ==========================CatSiamese============================ -->
-
 	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
 		<defName>AEXP_CatSiamese</defName>
 		<label>siamese cat</label>
@@ -1298,17 +1275,17 @@
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
-			<baseBodySize>0.255</baseBodySize>
-			<baseHungerRate>0.1</baseHungerRate>
+			<baseBodySize>0.32</baseBodySize>
+			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.42</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<useMeatFrom>Cat</useMeatFrom>
-			<wildness>0.2</wildness>
+			<wildness>0</wildness>
 			<petness>1</petness>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
-			<gestationPeriodDays>24</gestationPeriodDays>
+			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<litterSizeCurve>
 				<points>
@@ -1347,7 +1324,6 @@
 			<li>AnimalPet</li>
 		</tradeTags>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatSiamese</defName>
 		<label>siamese cat</label>
@@ -1392,9 +1368,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 	<!-- ==========================CatSomali============================ -->
-
 	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
 		<defName>AEXP_CatSomali</defName>
 		<label>somali cat</label>
@@ -1472,17 +1446,17 @@
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<predator>true</predator>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
-			<baseBodySize>0.255</baseBodySize>
-			<baseHungerRate>0.1</baseHungerRate>
+			<baseBodySize>0.32</baseBodySize>
+			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.42</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			<wildness>0.2</wildness>
+			<wildness>0</wildness>
 			<useMeatFrom>Cat</useMeatFrom>
 			<petness>1</petness>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
-			<gestationPeriodDays>24</gestationPeriodDays>
+			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<litterSizeCurve>
 				<points>
@@ -1521,7 +1495,6 @@
 			<li>AnimalPet</li>
 		</tradeTags>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatSomali</defName>
 		<label>somali cat</label>
@@ -1566,9 +1539,7 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 	<!-- ==========================CatSphynx============================ -->
-
 	<ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
 		<defName>AEXP_CatSphynx</defName>
 		<label>sphynx cat</label>
@@ -1647,16 +1618,16 @@
 			<predator>true</predator>
 			<useMeatFrom>Cat</useMeatFrom>
 			<maxPreyBodySize>0.25</maxPreyBodySize>
-			<baseBodySize>0.255</baseBodySize>
-			<baseHungerRate>0.1</baseHungerRate>
+			<baseBodySize>0.32</baseBodySize>
+			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.42</baseHealthScale>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			<wildness>0.2</wildness>
+			<wildness>0</wildness>
 			<petness>1</petness>
 			<trainability>None</trainability>
 			<nuzzleMtbHours>12</nuzzleMtbHours>
-			<gestationPeriodDays>24</gestationPeriodDays>
+			<gestationPeriodDays>10</gestationPeriodDays>
 			<nameOnTameChance>1</nameOnTameChance>
 			<litterSizeCurve>
 				<points>
@@ -1695,7 +1666,6 @@
 			<li>AnimalPet</li>
 		</tradeTags>
 	</ThingDef>
-
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>AEXP_CatSphynx</defName>
 		<label>sphynx cat</label>
@@ -1740,5 +1710,4 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
-
 </Defs>
